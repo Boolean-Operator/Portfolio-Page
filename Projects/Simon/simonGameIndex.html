@@ -1,0 +1,95 @@
+ <!DOCTYPE html>
+
+<meta>
+
+
+<html>
+<head>
+	<title>Free Code Camp - Simon Game</title>
+	
+	<link rel ="stylesheet" type="text/css" src ="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="simonGameStyle2.css">
+</head>
+<body>
+
+
+<div class = "container text-center">
+	<h1>
+		Free Code Camp
+		<br>
+		Simon Game
+	</h1>
+	<!-- <br> -->
+	<div class = "container text-center" id= "simon">
+		<div class = "container text-center" id = "gameface">
+
+			<div class = "row text-center board-top">
+				<div class = "col-md-12 ">
+				  <div type = "button" class="btn square square1" id = "1"></div>
+				  <div type = "button" class="btn square square2" id = "2"></div>
+				</div>
+			</div>
+			
+
+			<div class = "row text-center board-bottom">
+				<div class = "col-md-12 ">
+				  <div type= "button" class="btn square square3" id = "3"></div>
+				  <div type= "button" class="btn square square4" id = "4"></div>
+				</div>
+			</div>
+
+			<div class = "row text-center choose">
+				<div class = "row text-center scoreboard">
+					<div>
+				    <input type="radio" name="skill" value="8">
+				    <label for="level1">1</label>
+
+				    <input type="radio" name="skill" value="14">
+				    <label for="level2">2</label>
+
+				    <input type="radio" name="skill" value="20">
+				    <label for="level3">3</label>
+
+				    <input type="radio" name="skill" value="31">
+				    <label for="level3">4</label>
+						<p>Skill Level</p>
+  				</div>
+  			<div>
+					<span id="countDisplay" class = "offColor">88</span>
+				</div>
+				<span>
+					<button type = "button" class="btn start" id= "start" disabled></button>
+					START
+				</span>
+				<span>
+					<button type = "button" class="btn mode" id= "strict" disabled></button>
+					STRICT
+					<span  class = "LED offLED" ></span>
+				</span>
+				<span>
+					ON
+					<button type = "button" class="btn onOff" id= "onOff"></button>
+					OFF
+				</span>
+			</div>
+
+			<div class = "media">
+					<audio id="id1" src="assets/audio/1-Bflat.wav"></audio>
+				  <audio id="id2" src="assets/audio/2-C.wav"></audio>
+				  <audio id="id3" src="assets/audio/3-Aflat.wav"></audio>
+				  <audio id="id4" src="assets/audio/5-Eflat.wav"></audio>
+					<audio id="id5" src="assets/audio/4-Aflat-lower.wav"></audio>
+					<audio id="id6" src="assets/audio/Bzzt.wav"></audio>
+			</div>
+
+		</div>
+	</div>	
+</div>
+
+
+<script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript"  src = "simonGameScript3.3.js"></script>
+
+</body>
+</html>

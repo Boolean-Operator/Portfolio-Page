@@ -1,0 +1,113 @@
+body {
+	background: center:
+	background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	color: white;
+	height: 100%;
+ }
+
+ header  {
+	 padding: 2%;
+	 /* border-bottom: 2px #3266AD solid; */
+ }
+
+ h2 {
+	 text-align: center;
+	 font: 150% Arial;
+	 padding-bottom: 10px;
+	 text-shadow: 1px 0 0 #404040, 0 -1px 0 #404040, 0 1px 0 #404040, -1px 0 0 #404040; /*outlines text for better readability on varied background images*/
+ }
+
+p {
+	 text-align: center;
+	 font-family: Arial;
+	 font-size: 1.2em;
+	 color: #FFF;
+	 /*black outline for text on images*/
+	 text-shadow: 1px 0 0 #757575, 0 -1px 0 #757575, 0 1px 0 #757575, -1px 0 0 #757575;
+ }
+
+ a {
+	 text-decoration: none;
+	 display: block;
+	 color: white;
+	 border: 2px solid white;
+	 border-radius: 7px;
+	 background-color: rgba(40,40,40,0.25);
+ }
+
+ a:hover  {
+	text-decoration: none;
+	color: white;
+ 	border: 2px solid goldenrod;
+ 	background-color: rgba(40,40,40,0.45);
+ }
+
+ a:visited {
+	 text-decoration: none;
+	 color: white;
+ }
+
+#darkSky {
+	 margin: 0.5% auto;
+	 padding: 1.5%;
+	 border: 3px solid white;
+	 border-radius: 25px;
+	 text-align: center;
+	 background-color: rgba(40,40,40,0.25);
+ }
+
+.fiveDayForecast {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+  align-items: stretch;
+	height: 100%;
+}
+
+.day {
+	text-align: center;
+	text-shadow: 1px 0 0 #757575, 0 -1px 0 #757575, 0 1px 0 #757575, -1px 0 0 #757575;
+	margin: 3% auto;
+	width: 18%;
+	padding: 1%;
+  border: 2px solid white;
+  border-radius: 10px;
+
+ }
+
+.menusort li {
+	list-style-type: none;
+	margin-top:3px;
+	padding-top: 1%;
+	display: block;
+	text-align: center;
+}
+
+
+.weather_links {
+	font-family: Arial;
+	font-size: 1.2em;
+	width: 50%;
+	margin: 1% auto;
+	display: block;
+	padding: 0.5%;
+	border-radius: 10px;
+}
+
+
+.footer {
+	  position: fixed;
+		padding: .25rem;
+		color: whitesmoke;
+		font-family: "Arial";
+		text-align: center;
+		text-shadow: 1px 0 0 #757575, 0 -1px 0 #757575, 0 1px 0 #757575, -1px 0 0 #757575;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+		background-color: rgba(50,50,50,0.45);
+	}

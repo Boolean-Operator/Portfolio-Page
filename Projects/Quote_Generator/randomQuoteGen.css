@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
+body {
+  /*background: linear-gradient(to right, #aaf0f0, #800c30);*/
+  background: url('SunsetSparks.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  text-align: center;
+  font-family: Cherry Swash;
+}
+
+p {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.hrGradient {
+  color: #54565D;
+  border: 0;
+  height: 2px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.smGradient {
+  color: #54565D;
+  border: 0;
+  height: 2px;
+	margin: ; 
+	width: 40%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+button {
+  margin: 0 0 1.25%  0;
+  width: 30%;
+  height: 50%;
+  border: 2px solid #728CA6;
+  background-color: transparent;
+  border-radius: 7px;
+  //color: #000;
+  font-size: 1.05em;
+}
+
+.header {
+  margin: 2% auto;
+  padding: 1.5%;
+  max-width: 60%;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+.quoteBocks {
+  margin: 2% auto;
+  padding: 0 1.5% ;   
+  max-width: 60%;
+  border: 3px solid black;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.selected {
+  color: #ddf;
+  
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: .25rem;
+  background-color: #ADB5C8;
+  color: #000;
+  font-family: "Arial";
+  text-align: center;
+  text-shadow: none;
+}

@@ -1,0 +1,179 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+@media(min-width:767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+li {
+  font-size: 1.5em;
+}
+
+a.navbar-brand.page-scroll {
+  font-size: 1.75em;
+  color: #000;
+}
+
+.thumbnail {
+  background-color: #A0A0AA;
+}
+
+.short {
+  width: 250px;
+  border-top: 3px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 2);
+}
+.long {
+  width: 550px;
+  border-top: 3px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 2);
+}
+
+.content {
+  text-align: center;
+  padding-top: 10%;
+  text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.9), 0px 8px 13px rgba(0, 0, 0, 0.5), 0px 18px 23px rgba(0, 0, 0, 0.4);
+}
+
+.content-portfolio {
+  text-align: center;
+}
+
+.content-about {
+  text-align: center;
+  text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.9), 0px 8px 13px rgba(0, 0, 0, 0.5), 0px 18px 23px rgba(0, 0, 0, 0.4);
+}
+
+.intro-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+ /* background: #fff;*/
+}
+
+.about-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #eee;
+}
+
+.portfolio-section {
+  height: 100%;
+  padding-top: 100px;
+  text-align: center;
+  background: #fff;
+}
+
+.contact-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #eee;
+}
+
+.oops-section {
+  height: 100%;
+  padding-top: 100px;
+  text-align: center;
+  background: #fff;
+}
+
+.text-shadow {
+  text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.9), 
+               0px 8px 13px rgba(0, 0, 0, 0.5), 
+               0px 18px 23px rgba(0, 0, 0, 0.4);
+}
+
+.caption-text {
+  font-size: 1.0em;
+}
+
+#intro.intro-section {
+  background: url("../lib/spiderWebBW.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Lato;
+  color: white;
+}
+
+#about.about-section {
+  background: url("../lib/YellowRoseBW.png");
+  background-size: cover;
+  background-position: center;
+  font-family: Lato;
+  color: white;
+}
+
+#portfolio.portfolio-section {
+   background: url("../lib/OldTreeBW.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Lato;
+  color: white;
+}
+
+
+#portfolio.portfolio-section a {
+  color: white;
+}
+
+#contact.contact-section {
+ 
+  background: url("../lib/Construction1.2BW.png");
+  background-size: cover;
+  background-position: center;
+  font-family: Lato;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.9), 0px 8px 13px rgba(0, 0, 0, 0.5), 0px 18px 23px rgba(0, 0, 0, 0.4);
+}
+
+#contact-links a {
+  color: white;
+  text-align: center;
+}
+
+#contact-links ul  {
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+#oops.oops-section  {
+  background: url("../lib/Construction2BW.png");
+  background-size: cover;
+  background-position: center;
+  font-family: Lato;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 4px 3px rgba(0, 0, 0, 1.3), 0px 8px 13px rgba(0, 0, 0, 0.7), 0px 18px 23px rgba(0, 0, 0, 0.6);
+}

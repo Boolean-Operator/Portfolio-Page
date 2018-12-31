@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Calculon Calculator</title>
+
+  <link rel="stylesheet" type="text/css" href="fccCalculatorStyle.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet" type = "text/css">
+
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div id="calcBody">
+      <br>
+      <span id="title">CALCULON<br></span>
+      <span id= "subtitle">Electronic Calculator</span>
+      <hr>
+      <div id="innerframe">
+        <div class="screen">
+          <span id="display">0</span>
+        </div>
+        <!--screen-->
+        <div id = "screenSpace"></div>
+        <div id="keypad">
+          <div id="R1">
+            <button type="submit" id="negNum">-/+</button>
+            <button type="submit" id="CE">CE</button>
+            <button type="submit" id="C">C</button>
+            <button type="submit" onClick="operator('/')">/</button>
+          </div>
+          <div id="R2">
+            <button type="submit" onClick="displayDigit('7')">7</button>
+            <button type="submit" onClick="displayDigit('8')">8</button>
+            <button type="submit" onClick="displayDigit('9')">9 </button>
+            <button type="submit" onClick="operator('*')">*</button>
+          </div>
+          <div id="R3">
+            <button type="submit" onClick="displayDigit('4')">4</button>
+            <button type="submit" onClick="displayDigit('5')">5</button>
+            <button type="submit" onClick="displayDigit('6')">6</button>
+            <button type="submit" onClick="operator('-')">-</button>
+          </div>
+          <div id="R4">
+            <button type="submit" onClick="displayDigit('1')">1</button>
+            <button type="submit" onClick="displayDigit('2')">2</button>
+            <button type="submit" onClick="displayDigit('3')">3</button>
+            <button type="submit" onClick="operator('+')">+</button>
+          </div>
+          <div id="R5">
+            <button type="submit" onClick="displayDigit('0')">0</button>
+            <button type="submit" onClick="displayDigit('.')">.</button>
+            <button type="submit" id="equals">=</button>
+          </div>
+        </div>
+        <!--kepad-->
+
+      </div>
+      <!--innerframe-->
+    </div>
+    <!--calcBody-->
+  </div>
+  <!--container-->
+
+  <script type="text/javascript" src="fccCalculator.js"></script>
+
+</body>
+
+
+</html>

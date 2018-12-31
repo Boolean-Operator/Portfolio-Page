@@ -1,0 +1,119 @@
+body {
+	background-color: #232323;
+	font-family: "Arial";
+
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: lightsteelblue;
+	text-transform: uppercase;
+}
+
+p {
+	color:slategray;
+	line-height: 1.0;
+	font-size: 30px;
+	margin: 3px auto;
+}
+
+
+.container {
+	text-align: center;
+	font-size: 3em;
+}
+
+#message {
+	height: 25px;
+}
+
+.message {
+	height: 90px;
+	color: slategray;
+	font-size: 30px;
+	line-height: 2.0;
+	//text-transform: uppercase;
+}
+
+.scoreboard {
+	height: 120px;
+	font-size: 30px;
+	line-height: 2.0;
+	//text-transform: uppercase;
+}
+
+.row {
+	padding: 15px 15px;
+}
+
+.board {
+	padding:2px;
+}
+
+.choose {
+	height: 70px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.player {
+	height: 50px;
+	width: 100px;
+	background-color: lightsteelblue;
+}
+
+.square {
+	width: 150px;
+	height: 150px;
+	color: #232323;
+	background-color: #232323;
+  padding: 28px 28px;
+  margin: 0 auto;
+  font-size: 80px; /*//change this to your desired size*/
+  line-height: normal;
+  /*border-radius: 8px;*/
+  border: solid white 8px;
+  /*-webkit-border-radius: 8px;
+  -moz-border-radius: 8px;*/
+}
+
+.square:hover {
+	color: #232323;
+	background-color: transparent;
+}
+
+.square:focus {
+	color: slategray;
+	background-color: black;
+}
+
+.square:active {
+	color: red;
+	background-color: green;
+}
+
+.winCombo {
+	border: goldenrod solid 8px;
+}
+
+.winColor {
+	color:goldenrod;
+}
+
+.moveColor {
+	color: slategray;
+}
+.square.moveColor:hover {
+	color: slategray;
+	background-color: black;
+}
+
+.warningColor {
+	color: darkorange;
+	/*color:coral;*/
+}
+
+
+

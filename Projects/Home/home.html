@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NewHome</title>
+		<link rel="icon" type="Icon/ico" href="favicon.ico">
+		<link href="https://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet"/>
+		<link href= "Style/NewHome_v.2.css" rel="stylesheet" 	type= "text/css" />
+
+<body>
+	<header></header>
+	<div class= "container-fluid">
+		<div class= "col-md-3">
+			<ul class= "menusort">
+				<li><a href = "http://www.google.com" target="_blank">Google</a></li>
+				<li><a href = "http://www.yahoo.com" target="_blank">Yahoo</a></li>
+				<li><a href = "http://www.amazon.com" target="_blank">Amazon</a></li>
+				<li><a href = "http://delaware.craigslist.org" target="_blank">Craig's List</a></li>
+				<li><a href = "http://www.quora.com/" target="_blank">Quora</a></li>
+				<li><a href = "https://www.ted.com/" target="_blank">TED</a></li>
+				<li><a href = "https://dev.to/" target="_blank">DEV</a></li>
+				<li><a href = "http://www.foodgawker.com/" target="_blank">FoodGawker</a></li>
+				<li><a href = "http://thegrommet.com/" target="_blank">The Grommet</a></li>
+				<li><a href = "http://www.improgrammer.net/" target="_blank">I'm Programmer</a></li>
+				<li><a href = "http://www.imgur.com" target="_blank">Imgur</a></li>
+				<li><a href = "http://www.reddit.com" target="_blank">Reddit</a></li>
+				<li><a href = "https://www.tumblr.com/login/" target="_blank">Tumblr</a></li>
+				<li><a href = "http://www.instructables.com/" target="_blank">Instructables</a></li>
+				<li><a href = "http://www.wonderhowto.com/" target="_blank">Wonder How To</a></li>
+				<li><a href = "https://www.linkedin.com/in/marktgraybill" target="_blank">LinkedIn</a></li>
+				<li><a href = "http://www.youtube.com" target="_blank">You Tube</a></li>
+				<li><a href = "https://darksky.net/forecast/39.1254,-75.5263/us12/en" target="_blank">Forecast by DarkSky</a></li>
+				<li><a href = "https://www.usaa.com" target="_blank">USAA</a></li>
+				<li><a href = "https://www.marktgraybill.com" target="_blank">Mark T. Graybill</a></li>
+				<li><a href = "https://www.duolingo.com/" target="_blank">Duolingo</a></li>
+				<li><a href = "http://pbskids.org/" target="_blank">PBS Kids</a></li>
+			</ul>
+		</div>
+			<div class="col-md-6">
+				<div id="darkSky">
+					<h1>Current Conditions</h1>
+					<h2 id = "dateInfo">Date</h2>
+					<div id = "conditions">
+						<p id = "temper">Current Temp</p>
+						<p id = "cond">Conditions</p>
+						<p id = "wind">Wind Speed and Direction</p>
+
+						<a href = "https://darksky.net/forecast/39.1254,-75.5263/us12/en" target="_blank" class= "weather_links" >DarkSky</a>
+						<a href = "https://earth.nullschool.net/" target="_blank" class= "weather_links" >Earth</a>
+
+					</div>
+				</div>
+				<div class = "fiveDayForecast" id ="forecast">
+					<!-- <div class = "day">Today's Forecast 1</div>
+					<div class = "day">Today's Forecast 2</div>
+					<div class = "day">Today's Forecast 3</div>
+					<div class = "day">Today's Forecast 4</div>
+					<div class = "day">Today's Forecast 5</div> -->
+				</div>
+			</div>
+
+
+
+		<div class = "col-md-3">
+			<ul class= "menusort">
+				<li><a href = "https://www.udemy.com/home/my-courses/learning/" target="_blank">Udemy</a></li>
+				<li><a href = "http://www.freecodecamp.com/map#" target="_blank">Free Code Camp</a></li>
+				<li><a href = "https://www.coursera.org/" target="_blank">Coursea</a></li>
+				<li><a href = "https://www.edx.org/" target="_blank">EdX</a></li>	
+    	        <li><a href = "http://www.hackerrank.com/dashboard" target="_blank">HackerRank</a></li>
+				<li><a href = "https://www.codewars.com/" target="_blank">CodeWars</a></li>
+				<li><a href = "https://developer.mozilla.org/en-US//" target="_blank">MDN</a></li>
+				<li><a href = "http://jquery.com/" target="_blank">jQuery CDN</a></li>
+				<li><a href = "https://medium.com/" target="_blank">Medium</a></li>
+				<li><a href = "http://stackoverflow.com" target="_blank">Stack Overflow</a></li>
+				<li><a href = "https://gitter.im/Colt/TheWebDeveloperBootcamp" target="_blank">Gitter</a></li>
+				<li><a href = "https://www.github.com" target="_blank">GitHub</a></li>
+				<li><a href = "http://www.javascript.com" target="_blank">Java Script</a></li>
+				<li><a href = "http://www.devdocs.io/" target="_blank">DevDocs</a></li>
+				<li><a href = "http://www.webplatform.org" target="_blank">WebPlatform</a></li>
+				<li><a href = "http://www.csszengarden.com" target="_blank">CSS Zen Garden</a></li>
+				<li><a href = "http://www.htmlhelp.com" target="_blank">html Help</a></li>
+				<li><a href = "https://opendatade.slack.com/messages" target="_blank"> Slack - Open Data Delaware</a></li>
+				<li><a href = "http://www.mysql.com" target="_blank">MySql</a></li>
+				<li><a href = "http://colorschemedesigner.com/" target="_blank">Color Scheme Designer</a></li>
+				<li><a href = "http://www.crockford.com/wrrrld/color.html" target = "_blank" >CSS Color Names</a></li>
+				<li><a href = "https://www.heroku.com/" target="_blank">Heroku</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="footer">
+		 <span>- © Mark T. Graybill -</span>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	 <script type='text/javascript' src='Script/NewHomeScript_v.2.js'></script>
+	 <script type='text/javascript' src='Script/WeatherDSScript_v.2.js'></script>
+</body>
+</html>

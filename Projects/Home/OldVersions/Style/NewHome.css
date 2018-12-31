@@ -1,0 +1,120 @@
+
+body {
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: white;
+ }
+
+ header  {
+	 padding: 2%;
+	 /* border-bottom: 2px #3266AD solid; */
+ }
+
+ h2 {
+	 text-align: center;
+	 font: 150% Arial;
+	 padding-bottom: 10px;
+	 text-shadow: 1px 0 0 #404040, 0 -1px 0 #404040, 0 1px 0 #404040, -1px 0 0 #404040; /*outlines text for better readability on varied background images*/
+ }
+
+p {
+	 text-align: center;
+	 font-family: Arial;
+	 font-size: 1.2em;
+	 color: #FFF;
+	 /*black outline for text on images*/
+	 text-shadow: 1px 0 0 #757575, 0 -1px 0 #757575, 0 1px 0 #757575, -1px 0 0 #757575;
+ }
+
+ button:focus {
+	 outline: none;
+ }
+
+.hrGradient {
+  border: 0;
+  height: 2px;
+ 	background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+ 	background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+ 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+ }
+
+.smGradient {
+  border: 0;
+  height: 2px;
+ 	width: 40%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+ }
+
+
+#ranQuote {
+	margin: 3% auto;
+  padding: 1.5%;
+  border: 3px solid white;
+  border-radius: 25px;
+ }
+
+#darkSky {
+	margin: 0.5% auto;
+  padding: 1.5%;
+  border: 3px solid white;
+  border-radius: 25px;
+	text-align: center;
+	background-color: rgba(40,40,40,0.25);
+
+ }
+
+#ranQuote h1{
+	text-align: center;
+	/* black outline on white letters */
+	text-shadow: 1px 0 0 #757575, 0 -1px 0 #757575, 0 1px 0 #757575, -1px 0 0 #757575;
+ }
+
+#ranQuote .center-block {
+	display: block;
+	margin: auto;
+	width: 30%;
+	color: white;
+	border: 2px solid snow;
+	background-color: rgba(40,40,40,0.45);
+	border-radius: 7px;
+	font-size: 1.25em;
+}
+
+.quoteBach {
+	height: 100px;
+}
+
+.menusort li {
+	list-style-type: none;
+	margin-top:3px;
+	display: block center;
+	text-align: center;
+}
+
+.menusort a {
+	text-decoration: none;
+	display: block;
+	color: white;
+	border: 2px solid white;
+	border-radius: 7px;
+	background-color: rgba(40,40,40,0.25);
+}
+
+.menusort a:hover  {
+	border: 2px solid goldenrod;
+	background-color: rgba(40,40,40,0.45);
+}
+
+
+.footer {
+	  position: fixed;
+		padding: .25rem;
+		color: whitesmoke;
+		font-family: "Arial";
+		text-align: center;
+		text-shadow: 1px 0 0 #757575, 0 -1px 0 #757575, 0 1px 0 #757575, -1px 0 0 #757575;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+		background-color: rgba(50,50,50,0.45);
+	}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<meta>
+
+
+<html>
+<head>
+	<title>Tic Tac Toe2 </title>
+	
+	<link rel ="stylesheet" type="text/css" src ="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="ticTacToeStyle2.css">
+</head>
+<body>
+
+<h1>
+	Tic Tac Toe
+</h1>
+
+<div id = "container text-center">
+
+	<div class = "row text-center message">
+		<span id="message">Would you like to be X's or O's ?</span>
+	</div>
+
+	<div class = "row text-center choose">
+		<button type = "button" class="btn btn-lg btn-default player" id= "X">X</button>
+		<button type = "button" class="btn btn-lg btn-default player" id= "O">O</button>
+	</div>
+
+	<div class = "row text-center board">
+		<div class = "col-md-12 ">
+		  <div type= "button" class="btn btn-success square" id = "0">#</div>
+		  <div type= "button" class="btn btn-success square" id = "1">#</div>
+		  <div type= "button" class="btn btn-success square" id = "2">#</div>
+		</div>
+	</div>
+	<div class = "row text-center board">
+		<div class = "col-md-12 ">
+		  <div type= "button" class="btn btn-success square" id = "3">#</div>
+		  <div type= "button" class="btn btn-success square" id = "4">#</div>
+		  <div type= "button" class="btn btn-success square" id = "5">#</div>
+		</div>
+	</div>
+	<div class = "row text-center board">
+		<div class = "col-md-12 ">
+		  <div type= "button" class="btn btn-success square" id = "6" >#</div>
+		  <div type= "button" class="btn btn-success square" id = "7">#</div>
+		  <div type= "button" class="btn btn-success square" id = "8">#</div>
+		</div>
+	</div>
+
+	<div class = "row text-center scoreboard">
+			<p>Player: <span id="playerDisplay">0</span></p>
+			<p>Computer: <span id="compDisplay">0</span></p>
+			<p>Ties: <span id="tiesDisplay">0</span></p>
+<!-- <p>Playing to: <span id="winningScoreDisplay">5</span></p> -->
+<!-- <input type ="number" name = "scoreInput" value = "0" min = "0"> -->
+	</div>
+	
+</div>
+<script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript"  src = "ticTacToeScript2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+body {
+  /*background: url("http://www.photolib.noaa.gov/bigs/wea00633.jpg");*/
+  /*background: url('assets/rain-1.jpg');*/
+  background-repeat:no-repeat;
+  background-size: cover;
+  font-family: "Arial";
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+
+.menusort li {
+list-style-type: none;
+margin-top:3px;
+display: block center;
+text-align: center;
+}
+
+.menusort a {
+text-decoration: none;
+color: #FFF;
+display: block;
+border: 2px solid white;
+border-radius: 7px;
+/* background-color: #3266AD; */
+}
+
+.menusort a:hover  {
+/* color: yellow; */
+border: 2px solid goldenrod;
+background-color: rgba(40,40,40,0.35);
+/* background-color: #7CB3FF; */
+}
+
+
+
+p {
+  margin: 1px;
+  padding: 2px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.spacer {
+  margin: 1.5%;
+}
+
+.top {
+  border-radius: 4px;
+  padding: 2%;
+  background-color: rgba(40,40,40,0.35);
+}
+
+.right {
+  text-shadow: none;
+  /* background-color: rgba(40,40,40,0.35); */
+}
+
+.left{
+  text-shadow: none;
+  /* background-color: rgba(40,40,40,0.35); */
+}
+
+.forDay {
+  display: inline-block;
+  width: 20%;
+  color: white;
+}
+
+hr.smallLine {
+  width: 80px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-bottom: 1px;
+  clear:both;
+  border-bottom: solid white 1px;
+  /*border-bottom: 80%;*/
+}
+
+.timeStamp {
+  float: left;
+}
+
+.timeStamp h4 {
+  margin: 0;
+  padding-bottom: 1px;
+}
+
+.report {
+  /*display: inline-block;*/
+  float: center;
+  /*border: solid white 1px;*/
+  /*text-align: left;*/
+  /*text-align: c;*/
+}
+
+.tempRep p{
+  padding-top: 0;
+}
+
+
+.forDay li {
+  list-style: none;
+  font-size: 1.25em
+}
+.forecast {
+  border-radius: 10px;
+  background-color: rgba(40,40,40,0.35);
+}
+
+
+
+.btn-default {
+  color: white;
+  border-radius: 25px;
+  background-color: transparent;
+  outline: none;
+}
+
+.btn-default:active {
+  color: white;
+  border-radius: 25px;
+  background-color: transparent;
+  outline: none;
+}
+
+.btn-default:focus {
+  color: white;
+  border-radius: 25px;
+  background-color: transparent;
+  outline: none;
+}
+
+.btn-default:hover {
+  color: white;
+  border-radius: 25px;
+  background-color: transparent;
+  outline: none;
+}
+
+.footer {
+  font-family: arial;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: .25rem;
+  background-color: #ADB5C8;
+  text-align: center;
+}
