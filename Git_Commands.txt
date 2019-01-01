@@ -1,4 +1,5 @@
 ~CLI ( Command Line Interface)
+// *** This first step is done the when you first set up git *** 
 // *** One Time Only ***
 // Configure the author name and email address to be used with your commits.
 // Note that Git strips some characters (for example trailing periods) from user.name.
